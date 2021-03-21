@@ -14,8 +14,18 @@ https://www.scimagojr.com/journalrank.php?area=1700&type=p&category=1702
 
 ![](image/Conference_Rankings_on_Artificial_Intelligence.png)
 
+
+https://www.scopus.com/sources.uri
+
+![](image/scopus_journal_ranks.png)
+
 ### 3. Journals ranks
 
 https://www.scimagojr.com/journalrank.php?category=1702&area=1700&type=j
 
 ![](image/Journal_Rankings_on_Artificial_Intelligence.png)
+
+
+https://www.scopus.com/sources.uri
+
+![](image/scopus_conference_ranks.png)
