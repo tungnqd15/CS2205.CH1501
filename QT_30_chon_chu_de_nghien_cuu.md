@@ -1,16 +1,16 @@
-## QT30: CHỌN CHỦ ĐỀ NGHIÊN CỨU
+# QT30: CHỌN CHỦ ĐỀ NGHIÊN CỨU
 
-# 1. Lĩnh vực nghiên cứu
+## 1. Lĩnh vực nghiên cứu
 
 - NLP 
 - Computer vision
 
-# 2. Các hội nghị tạp chí
+## 2. Các hội nghị tạp chí
 
 - Top Conferences for Computational Linguistics & Speech Processing (guide2research.com)
 - ACL, EMNLP, HLT-NAACL, EACL, COLING (NLP)
 - https://www.guide2research.com/topconf/computer-vision
-# 3. Các chủ đề nghiên cứu
+## 3. Các chủ đề nghiên cứu
 
 - Semantic Analysis, 
 - Sentiment Analysis, 
@@ -25,7 +25,7 @@
 - Relationship Extraction, 
 - Topic Segmentation and Recognition
 
-# 4. Các bài toán nghiên cứu
+## 4. Các bài toán nghiên cứu
 
 - Contextual Analysis (Giải mã ngữ cảnh của các từ, các đoạn và từ đồng âm)
 - Synonyms recognition (Xác định từ đồng nghĩa)
