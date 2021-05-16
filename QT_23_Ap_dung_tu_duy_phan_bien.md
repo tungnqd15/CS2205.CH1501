@@ -4,7 +4,7 @@
 
 > Từ những thông tin tiếp nhận được về câu chuyện liên quan đến các câu nói đùa cợt của các doanh nhân Nguyễn Xuân Phú, Phạm Thanh Hưng dành
 cho nữ CEO Nguyễn Thị Thu Hằng gọi vốn trong chương trình Shark Tank Vietnam và những chỉ trích gay gắt như "xúc phạm phụ nữ", "cợt nhả thiếu 
-tôn trọng phụ nữ",... theo nhận định của tôi thì một số người xem đã quá nhạy cảm với vấn đề bình đẳng giới đến mức lạm dụng. 
+tôn trọng phụ nữ",... tôi nhận định rằng một số người xem đã quá nhạy cảm với vấn đề bình đẳng giới đến mức lạm dụng. 
 Nếu người xem thực sự bỏ qua định kiến về giới tính, với một góc nhìn khách quan hơn thì trong các câu nói đùa cợt của Shark Phú và Shark Hưng 
 không có ý xúc phạm phụ nữ.
 
