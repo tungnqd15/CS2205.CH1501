@@ -16,7 +16,7 @@ không có ý xúc phạm phụ nữ.
 
 - "Em không cần giải thích gì thêm về business. Với anh, anh chỉ cần liếc mắt là biết business nào rồi. Nên anh đã nói ngay từ đầu, anh không quan tâm đến business, không quan tâm đến sản phẩm mà đang quan tâm đến mỗi em thôi. Anh chốt thế này, 1,5 tỉ cho 10% cổ phần."
 
-> Xét trong hoàn cảnh lúc đó, điều mà Shark Phú thực sự quan tâm là người sáng lập và điều hành start-up, ông không nói đến vẻ bề ngoài như một số người xem đã hiểu. Theo báo Người lao động được CEO Nguyễn Thị Thu Hằng của Wiibike chia sẻ ý kiến, trên sóng truyền hình, Wiibike chỉ xuất hiện khoảng 15 phút, còn thực tế ghi hình diễn ra hơn 1 tiếng. Trong quá trình đó, các Shark đã đặt nhiều câu hỏi để tìm hiểu kỹ càng về Wiibike, từ quá trình thành lập đến đặc điểm sản phẩm, tình hình tài chính và mục tiêu phát triển của doanh nghiệp. Nữ CEO cho rằng có lẽ mọi người không được chứng kiến từ đầu đến cuối màn gọi vốn nên có cách nhìn nhận khác.
+> Xét trong hoàn cảnh lúc đó, điều mà Shark Phú - một người làm kinh doanh - thực sự quan tâm là người sáng lập và điều hành start-up, ông không nói đến vẻ bề ngoài như một số người xem đã hiểu. Theo báo Người lao động được CEO Nguyễn Thị Thu Hằng của Wiibike chia sẻ ý kiến, trên sóng truyền hình, Wiibike chỉ xuất hiện khoảng 15 phút, còn thực tế ghi hình diễn ra hơn 1 tiếng. Trong quá trình đó, các Shark đã đặt nhiều câu hỏi để tìm hiểu kỹ càng về Wiibike, từ quá trình thành lập đến đặc điểm sản phẩm, tình hình tài chính và mục tiêu phát triển của doanh nghiệp. Nữ CEO cho rằng có lẽ mọi người không được chứng kiến từ đầu đến cuối màn gọi vốn nên có cách nhìn nhận khác.
 
 > Bên cạnh Shark Phú, các câu nói của Shark Hưng được cho là đùa một cách cợt nhả và phản cảm. Trích dẫn lời Shark Phạm Thanh Hưng:
 
