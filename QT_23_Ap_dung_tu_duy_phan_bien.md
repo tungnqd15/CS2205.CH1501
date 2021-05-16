@@ -1,6 +1,6 @@
 # QT23: ÁP DỤNG TƯ DUY PHẢN BIỆN
 
-## Bình đẳng giới không chỉ đơn thuần là "vạch lá tìm sâu".
+## Bình đẳng giới không đơn thuần là "vạch lá tìm sâu".
 
 > Từ những thông tin tiếp nhận được về câu chuyện liên quan đến các câu nói đùa cợt của các doanh nhân Nguyễn Xuân Phú, Phạm Thanh Hưng dành
 cho nữ CEO Nguyễn Thị Thu Hằng gọi vốn trong chương trình Shark Tank Vietnam và những chỉ trích gay gắt như "xúc phạm phụ nữ", "cợt nhả thiếu 
