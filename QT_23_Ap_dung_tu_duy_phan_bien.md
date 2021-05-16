@@ -1,6 +1,6 @@
 # QT23: ÁP DỤNG TƯ DUY PHẢN BIỆN
 
-## Bình đẳng giới không đơn thuần chỉ là "vạch lá tìm sâu".
+## Bình đẳng giới không chỉ đơn thuần là "vạch lá tìm sâu".
 
 > Từ những thông tin tiếp nhận được về câu chuyện liên quan đến các câu nói đùa cợt của các doanh nhân Nguyễn Xuân Phú, Phạm Thanh Hưng dành
 cho nữ CEO Nguyễn Thị Thu Hằng gọi vốn trong chương trình Shark Tank Vietnam và những chỉ trích gay gắt như "xúc phạm phụ nữ", "cợt nhả thiếu 
@@ -26,7 +26,7 @@ không có ý xúc phạm phụ nữ.
 > Theo tôi, điều khiến các câu nói trên bị chỉ trích đa phần là do Shark Hưng đã dùng các từ nhạy cảm như "sạch", "xanh", và "xinh". Để mô tả một start-up tốt và 
 đầy triển vọng, thì đây có thể nói là một cách diễn đạt hóm hỉnh của Shark. Nhưng trong tư duy của một số người xem, từ kinh nghiệm khi họ tiếp xúc với các ngôn từ ám thị, các từ ngữ dùng để mô tả một start-up với CEO là phụ nữ bị bóp méo thành các từ khác với ngữ nghĩa cợt nhả và phản cảm như "rau sạch - xanh", "gái xinh",...
 
-> Cuối cùng, nhận định của tôi về câu chuyện và những chỉ trích đó là việc lạm dụng chiêu bài bình đẳng giới, quy chụp theo đám đông và bảo thủ từ phía một số người xem. Trên con đường đấu tranh bình đẳng giới, những con người tham gia tranh đấu cần có tư duy bình đẳng giới, không phải đơn thuần chỉ là "vạch lá tìm sâu".
+> Cuối cùng, nhận định của tôi về câu chuyện và những chỉ trích đó là việc lạm dụng chiêu bài bình đẳng giới, quy chụp theo đám đông và bảo thủ từ phía một số người xem. Trên con đường đấu tranh bình đẳng giới, những con người tham gia tranh đấu cần có tư duy bình đẳng giới, không chỉ đơn thuần là "vạch lá tìm sâu".
 
 ## Reference
 
