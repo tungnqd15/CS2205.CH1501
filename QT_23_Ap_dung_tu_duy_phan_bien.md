@@ -12,7 +12,7 @@ không có ý xúc phạm phụ nữ.
 
 - "Anh chỉ mãi nhìn em nên chẳng thấy gì đặc biệt ở chiếc xe cả"
 
-> Câu trên theo tôi đơn thuần chỉ là một câu nói đùa trong đối thoại trực tiếp nhằm tạo ra tiếng cười, và đồng thời là một lời khen ngợi phái đẹp của Shark Phú. Tiếp theo là lời đề nghị đầu tư của Shark cũng nhận không ít những lời chỉ trích: 
+> Câu nói trên theo tôi đơn thuần là một câu nói đùa trong đối thoại trực tiếp nhằm tạo ra tiếng cười, và đồng thời là một lời khen ngợi phái đẹp của Shark Phú. Tiếp theo là lời đề nghị đầu tư của Shark cũng nhận không ít những lời chỉ trích: 
 
 - "Em không cần giải thích gì thêm về business. Với anh, anh chỉ cần liếc mắt là biết business nào rồi. Nên anh đã nói ngay từ đầu, anh không quan tâm đến business, không quan tâm đến sản phẩm mà đang quan tâm đến mỗi em thôi. Anh chốt thế này, 1,5 tỉ cho 10% cổ phần."
 
