@@ -9,28 +9,29 @@ https://openaccess.thecvf.com/content_cvpr_2018/papers_backup/Zhao_HSA-RNN_Hiera
 
 
 ## 1. Bài toán mà bài báo giải quyết là gì? 
-
 - Dữ liệu video tăng, cần phát triển công cụ tóm tắt video (video summarization)
 - Tóm tắt video nhằm mục đích kiểm duyệt và hiểu một video dài bằng cách rút ngắn nó thành một phiên bản nhỏ gọn, tức là, làm nổi bật bản chất và loại bỏ sự dư thừa. 
 - Có 3 hướng tiếp cận, đó là cảnh quay (shots), khung hình (frames) và các đối tượng (objects). 
 - Bài báo tập trung vào một số cảnh quay chính (several key shots), vì có thể bảo tồn thông tin và tính nhất quán theo không gian-thời gian của nội dung video. 
-- Đề xuất phương pháp khai thác cấu trúc video và tóm tắt nội dung video
-- Dùng LSTM trượt hai chiều (bidirectional LSTM) để phát hiện các ranh giới trong video, phân đoạn chính xác của các video dài với LSTM, do đó vấn đề độ dốc kích thích được giảm thiểu.
-- Tập dữ liệu sử dụng: SumMe TVum, CoSum và VTW. 
-- 
+- Dùng LSTM trượt hai chiều (bidirectional LSTM) để phát hiện các ranh giới (detected shot boundaries) trong video, phân đoạn chính xác hơn so với LSTM.
+- Tập dữ liệu sử dụng: SumMe TVum, CoSum và VTW.  
 ## 2. Các câu hỏi đặt ra là gì? Đã giải quyết được đến đâu?
 
 - phân nhóm các shot tương đồng
 
-
 ## 3. Ý tưởng giải quyết là gì?
 
-Cách tiếp cận: hai lớp (layers)
-- khai thác cấu trúc video (exploit the video structure)
-  - cấu trung phân cấp (hierarchical): (frames form shots and shots form video)
+### Video Structure Exploitation
+Khai thác cấu trúc video (exploit the video structure) - phân cấp (hierarchical): 
+- Các đối tượng trong khung hình 
+- Các khung hình cấu thành cảnh quay (frames form shots)
+- Các cảnh quay cấu thành video (shots form video)
+
   - sự phụ thuộc về thời gian giữa các khung hình.
   - Không khả thi khi áp dụng bidirectional LSTM (đánh mất thông tin quan trọng)
   ![Bi_LSTM](https://user-images.githubusercontent.com/79246748/118460404-de3b4a80-b726-11eb-836b-53f1eef8b2e3.png)
+
+### Structure-Adaptive Video Summarization
 
 - tóm tắt video (summarize the video)
 
