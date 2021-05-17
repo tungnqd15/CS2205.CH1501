@@ -11,7 +11,9 @@ https://openaccess.thecvf.com/content_cvpr_2018/papers_backup/Zhao_HSA-RNN_Hiera
 ## 1. Bài toán mà bài báo giải quyết là gì? 
 
 - Dữ liệu video tăng, cần phát triển công cụ tóm tắt video (video summarization)
-- Tóm tắt video nhằm mục đích kiểm duyệt và hiểu một video dài bằng cách rút ngắn nó thành một phiên bản nhỏ gọn, tức là, làm nổi bật bản chất và loại bỏ sự dư thừa. 
+- Tóm tắt video nhằm mục đích kiểm duyệt và hiểu một video dài bằng cách rút ngắn nó thành một phiên bản nhỏ gọn, tức là, làm nổi bật bản chất và loại bỏ sự dư thừa.
+- Những phương pháp tóm tắt video hiện có tập trung vào shot segmentation => điều này có thể phá hủy phân cấp cơ bản (underlying hierarchical structure) của video hơn nữa làm giảm chất lượng của generated summaries => giải quyết vấn đề này, tác giả đề xuất a structure adaptive video summarization approach giúp tích hợp shot
+segmentation và video summarization vào một Hierarchical Structure-Adaptive RNN, biểu thị là HSA-RNN
 - Có 3 hướng tiếp cận, đó là cảnh quay (shots), khung hình (frames) và các đối tượng (objects). 
 - Bài báo tập trung vào một số cảnh quay chính (several key shots), vì có thể bảo tồn thông tin và tính nhất quán theo không gian-thời gian của nội dung video. 
 - Đề xuất phương pháp khai thác cấu trúc video và tóm tắt nội dung video
