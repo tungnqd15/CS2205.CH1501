@@ -10,7 +10,7 @@ https://openaccess.thecvf.com/content_cvpr_2018/papers_backup/Zhao_HSA-RNN_Hiera
 
 ## 1. Bài toán mà bài báo giải quyết là gì? 
 - Dữ liệu video tăng, cần phát triển công cụ tóm tắt video (video summarization)
-- Tóm tắt video nhằm mục đích kiểm duyệt và hiểu một video dài bằng cách rút ngắn nó thành một phiên bản nhỏ gọn, tức là, làm nổi bật bản chất và loại bỏ sự dư thừa. 
+- Tóm tắt video nhằm mục đích kiểm duyệt và hiểu một video dài bằng cách rút ngắn nó thành một phiên bản nhỏ gọn, tức là, làm nổi bật bản chất và loại bỏ những đoạn dư thừa. 
 - Có 3 hướng tiếp cận, đó là cảnh quay (shots), khung hình (frames) và các đối tượng (objects). 
 - Bài báo tập trung vào một số cảnh quay chính (several key shots), vì có thể bảo tồn thông tin và tính nhất quán theo không gian-thời gian của nội dung video. 
 - Dùng LSTM trượt hai chiều (bidirectional LSTM) để phát hiện các ranh giới (detected shot boundaries) trong video, phân đoạn chính xác hơn so với LSTM.
@@ -21,11 +21,22 @@ https://openaccess.thecvf.com/content_cvpr_2018/papers_backup/Zhao_HSA-RNN_Hiera
 
 ## 3. Ý tưởng giải quyết là gì?
 
+![HSA-RNN](https://user-images.githubusercontent.com/79246748/118468649-2eb6a600-b72f-11eb-9d7d-6b93c933a937.png)
+
 ### Video Structure Exploitation
 Khai thác cấu trúc video (exploit the video structure) - phân cấp (hierarchical): 
 - Các đối tượng trong khung hình 
 - Các khung hình cấu thành cảnh quay (frames form shots)
 - Các cảnh quay cấu thành video (shots form video)
+
+A sliding bidirectional LSTM
+
+1) Thao tác trượt cho phép LSTM ngắn xử lý video dài. Nó tránh khai thác phụ thuộc theo thời gian giữa hàng nghìn khung hình, điều này có thể giảm thiểu vấn đề gradient biến mất.
+
+2) LSTM hai chiều cùng ghi lại thông tin về phía trước và phía sau trong trình tự khung hình, có thể bảo vệ ranh giới cảnh quay một cách hiệu quả.
+
+3) LSTM trượt hai chiều chỉ xử lý các khung cục bộ ở mỗi bước, điều này làm giảm sự can thiệp của thông tin toàn cầu không liên quan. Cụ thể, ở bước đầu tiên, LSTM hai chiều hoạt động trên thứ tự khung (f 1, f 2,.., F k) theo các phương trình sau, trong đó LSTM (·) là viết tắt của các hoạt động trong mỗi LSTM
+đơn vị.
 
   - sự phụ thuộc về thời gian giữa các khung hình.
   - Không khả thi khi áp dụng bidirectional LSTM (đánh mất thông tin quan trọng)
@@ -40,7 +51,11 @@ sliding bidirectional LSTM
 
 ## Reference 
 
-https://cseweb.ucsd.edu/~wgg/CSE210/howtoread.html
+[1] https://cseweb.ucsd.edu/~wgg/CSE210/howtoread.html
 
-https://www.huffpost.com/entry/how-to-read-and-understand-a-scientific-paper_b_5501628
+[2] https://www.huffpost.com/entry/how-to-read-and-understand-a-scientific-paper_b_5501628
+
+[3] https://labs.septeni-technology.jp/technote/ml-16-rectifier-linear-function-and-vanishing-gradient-problem/
+
+
 
