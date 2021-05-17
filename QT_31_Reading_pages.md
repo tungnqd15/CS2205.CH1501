@@ -36,7 +36,7 @@ trong đó n và m là số khung hình (frames) và cảnh quay (shots)
 
 ## 3. Ý tưởng giải quyết là gì?
 
-Khai thác cấu trúc video (exploit the video structure) - phân cấp (hierarchical): 
+> Khai thác cấu trúc video (exploit the video structure) - phân cấp (hierarchical): 
 - Các đối tượng trong khung hình (objects form frames)
 - Các khung hình cấu thành cảnh quay (frames form shots)
 - Các cảnh quay cấu thành video (shots form video)
