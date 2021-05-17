@@ -13,17 +13,11 @@ https://openaccess.thecvf.com/content_cvpr_2018/papers_backup/Zhao_HSA-RNN_Hiera
 - Dữ liệu video tăng, cần phát triển công cụ tóm tắt video (video summarization)
 - Tóm tắt video nhằm mục đích kiểm duyệt và hiểu một video dài bằng cách rút ngắn nó thành một phiên bản nhỏ gọn, tức là, làm nổi bật bản chất và loại bỏ sự dư thừa. 
 - Có 3 hướng tiếp cận, đó là cảnh quay (shots), khung hình (frames) và các đối tượng (objects). 
-
-Trong bài báo này, chúng tôi tập trung vào phần đầu tiên tóm tắt video với một số cảnh quay chính (several key shots), vì nó có thể bảo tồn tốt hơn thông tin động và tính nhất quán theo không gian-thời gian của nội dung video. 
-
-1) Theo hiểu biết của chúng tôi, chúng tôi là người đầu tiên đề xuất phương pháp tóm tắt video thích ứng theo cấu trúc mà chung-ly khai thác cấu trúc video và tóm tắt nội dung video. Nó có thể tạo nên điểm yếu của các phương pháp tiếp cận hiện có trong việc khai thác cấu trúc video và cải thiện hơn nữa chất lượng cơ bản.
-
-2) Chúng tôi thiết kế một LSTM trượt hai chiều để phát hiện các ranh giới trong video. Nó đạt được phân đoạn chính xác của các video dài với LSTM ngắn hơn nhiều, do đó vấn đề độ dốc kích thích được giảm thiểu.
-
-3) Tập dữ liệu: SumMe TVum, CoSum và VTW
-4) 
-
-
+- Bài báo tập trung vào một số cảnh quay chính (several key shots), vì có thể bảo tồn thông tin và tính nhất quán theo không gian-thời gian của nội dung video. 
+- Đề xuất phương pháp khai thác cấu trúc video và tóm tắt nội dung video
+- Dùng LSTM trượt hai chiều (bidirectional LSTM) để phát hiện các ranh giới trong video, phân đoạn chính xác của các video dài với LSTM, do đó vấn đề độ dốc kích thích được giảm thiểu.
+- Tập dữ liệu sử dụng: SumMe TVum, CoSum và VTW. 
+- 
 ## 2. Các câu hỏi đặt ra là gì? Đã giải quyết được đến đâu?
 
 - phân nhóm các shot tương đồng
