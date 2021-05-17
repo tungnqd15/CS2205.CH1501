@@ -21,8 +21,6 @@ trong đó n và m là số khung hình (frames) và cảnh quay (shots)
 
 > Bài báo này tập trung vào một số cảnh quay chính (several key shots), vì phản ánh thông tin nhất quán với nội dung video. 
 
-> Dùng LSTM trượt hai chiều (bidirectional LSTM) để phát hiện các ranh giới (detected shot boundaries) trong video, phân đoạn chính xác hơn so với LSTM.
-
 > Tập dữ liệu sử dụng: SumMe TVum, CoSum và VTW.  
 
 ## 2. Các câu hỏi đặt ra là gì? Đã giải quyết được đến đâu?
