@@ -20,4 +20,9 @@ Minh hoạ input/output
 
 Minh hoạ trực quan
 
+## Reference 
+
+https://cseweb.ucsd.edu/~wgg/CSE210/howtoread.html
+
+https://www.huffpost.com/entry/how-to-read-and-understand-a-scientific-paper_b_5501628
 
