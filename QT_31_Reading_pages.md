@@ -29,16 +29,26 @@ Trong bài báo này, chúng tôi tập trung vào phần đầu tiên tóm tắ
 
 3) Tập dữ liệu: SumMe TVum, CoSum và VTW
 4) 
-Minh hoạ input/output
 
 
 ## 2. Các câu hỏi đặt ra là gì? Đã giải quyết được đến đâu?
 
 - phân nhóm các shot tương đồng
 
+
 ## 3. Ý tưởng giải quyết là gì?
 
-Minh hoạ trực quan
+Cách tiếp cận: hai lớp (layers)
+- khai thác cấu trúc video (exploit the video structure)
+  - cấu trung phân cấp (hierarchical): (frames form shots and shots form video)
+  - sự phụ thuộc về thời gian giữa các khung hình.
+  - Không khả thi khi áp dụng bidirectional LSTM (đánh mất thông tin quan trọng)
+  ![Bi_LSTM](https://user-images.githubusercontent.com/79246748/118460404-de3b4a80-b726-11eb-836b-53f1eef8b2e3.png)
+
+- tóm tắt video (summarize the video)
+
+sliding bidirectional LSTM
+ 
 
 ## Reference 
 
