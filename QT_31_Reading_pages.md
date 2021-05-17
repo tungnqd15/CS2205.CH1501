@@ -25,13 +25,13 @@ trong đó n và m là số khung hình (frames) và cảnh quay (shots)
 
 ## 2. Các câu hỏi đặt ra là gì? Đã giải quyết được đến đâu?
 
-> Có thể sử dụng cấu trúc dữ liệu của một video cho bài toán video summarization? 
+> Có thể tiếp cận theo hướng sử dụng cấu trúc dữ liệu của một video cho bài toán video summarization hay không? 
 
-- Khai thác cấu trúc frames và shots
+- Khai thác cấu trúc frames và shots.
 
 > Làm thế nào để xác định các phân cảnh (shots) thể hiện đúng nội dung video đầu vào?
 
-- Sử dụng HSA-RNN với 2 layers (sliding bidirectional LSTM và bidirectional LSTM)
+- Sử dụng HSA-RNN với 2 layers (sliding bidirectional LSTM và bidirectional LSTM).
 
 
 ## 3. Ý tưởng giải quyết là gì?
