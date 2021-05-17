@@ -11,8 +11,8 @@ https://openaccess.thecvf.com/content_cvpr_2018/papers_backup/Zhao_HSA-RNN_Hiera
 ## 1. Bài toán mà bài báo giải quyết là gì? 
 - Dữ liệu video tăng, cần phát triển công cụ tóm tắt video (video summarization)
 - Tóm tắt video nhằm mục đích kiểm duyệt và hiểu một video dài bằng cách rút ngắn nó thành một phiên bản nhỏ gọn, tức là, làm nổi bật bản chất và loại bỏ những đoạn dư thừa. 
-- Có 3 hướng tiếp cận, đó là cảnh quay (shots), khung hình (frames) và các đối tượng (objects). 
-- Bài báo tập trung vào một số cảnh quay chính (several key shots), vì có thể bảo tồn thông tin và tính nhất quán theo không gian-thời gian của nội dung video. 
+- Cấu trúc video: cảnh quay (shots), khung hình (frames) và các đối tượng (objects). Kỹ thuật hiện tại không khai thác cấu trúc này 
+- Bài báo này tập trung vào một số cảnh quay chính (several key shots), vì phản ánh thông tin nhất quán với nội dung video. 
 - Dùng LSTM trượt hai chiều (bidirectional LSTM) để phát hiện các ranh giới (detected shot boundaries) trong video, phân đoạn chính xác hơn so với LSTM.
 - Tập dữ liệu sử dụng: SumMe TVum, CoSum và VTW.  
 ## 2. Các câu hỏi đặt ra là gì? Đã giải quyết được đến đâu?
@@ -31,7 +31,7 @@ Khai thác cấu trúc video (exploit the video structure) - phân cấp (hierar
 
 A sliding bidirectional LSTM
 
-1) Thao tác trượt cho phép LSTM ngắn xử lý video dài. Nó tránh khai thác phụ thuộc theo thời gian giữa hàng nghìn khung hình, điều này có thể giảm thiểu vấn đề gradient biến mất.
+1) Thao tác trượt cho phép LSTM ngắn xử lý video dài. Nó tránh khai thác phụ thuộc theo thời gian giữa hàng nghìn khung hình, điều này có thể giảm thiểu vanishing gradient problem.
 
 2) LSTM hai chiều cùng ghi lại thông tin về phía trước và phía sau trong trình tự khung hình, có thể bảo vệ ranh giới cảnh quay một cách hiệu quả.
 
