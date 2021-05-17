@@ -25,7 +25,7 @@ trong đó n và m là số khung hình (frames) và cảnh quay (shots)
 
 ## 2. Các câu hỏi đặt ra là gì? Đã giải quyết được đến đâu?
 
-> Cấu trúc dữ liệu của một video như thế nào? 
+> Có thể sử dụng cấu trúc dữ liệu của một video cho bài toán video summarization? 
 
 - Khai thác cấu trúc frames và shots
 
