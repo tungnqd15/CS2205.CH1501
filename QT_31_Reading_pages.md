@@ -10,12 +10,9 @@ https://openaccess.thecvf.com/content_cvpr_2018/papers_backup/Zhao_HSA-RNN_Hiera
 
 ## 1. Bài toán mà bài báo giải quyết là gì? 
 
- Dữ liệu video tăng, cần phát triển công cụ tóm tắt video (video summarization)
-
-Tóm tắt video kiểm duyệt và hiểu một video dài bằng cách rút ngắn nó thành một phiên bản nhỏ gọn, tức là, làm nổi bật bản chất và loại bỏ sự dư thừa. 
-
-Thực tế, video tóm tắt có thể cô đọng video ở ba cấp độ, đó là cảnh quay, khung hình
-và các đối tượng. 
+- Dữ liệu video tăng, cần phát triển công cụ tóm tắt video (video summarization)
+- Tóm tắt video nhằm mục đích kiểm duyệt và hiểu một video dài bằng cách rút ngắn nó thành một phiên bản nhỏ gọn, tức là, làm nổi bật bản chất và loại bỏ sự dư thừa. 
+- Có 3 hướng tiếp cận, đó là cảnh quay (shots), khung hình (frames) và các đối tượng (objects). 
 
 Trong bài báo này, chúng tôi tập trung vào phần đầu tiên tóm tắt video với một số cảnh quay chính (several key shots), vì nó có thể bảo tồn tốt hơn thông tin động và tính nhất quán theo không gian-thời gian của nội dung video. 
 
