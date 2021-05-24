@@ -17,6 +17,8 @@ https://www.aclweb.org/anthology/P19-2026.pdf
 
 ![entity_linking](https://user-images.githubusercontent.com/79246748/119311842-c2dabd00-bc9b-11eb-948f-9b1b376bb10a.png)
 
+> Leveraging the relationship between Named-Entity Reconigtion (NER) and Entity Linking (EL) to improves the performance in both tasks.
+
 ## 2. Problem là gì? 
 ## 3. Ý tưởng của kỹ thuật giải quyết là gì?
 
